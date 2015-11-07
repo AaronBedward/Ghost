@@ -19,7 +19,8 @@
   "main": "./core/index",
   "scripts": {
     "start": "node index",
-    "test": "grunt validate --verbose"
+    "test": "grunt validate --verbose",
+     "postinstall": "grunt init && grunt prod"
   },
   "engines": {
     "node": "~0.10.0 || ~0.12.0",
@@ -48,6 +49,7 @@
     "intl-messageformat": "1.1.0",
     "jsonpath": "0.2.0",
     "knex": "0.7.3",
+    "le_node": "^1.1.1",
     "lodash": "3.10.1",
     "moment": "2.10.6",
     "morgan": "1.6.1",
