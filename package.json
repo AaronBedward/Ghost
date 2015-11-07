@@ -20,7 +20,7 @@
   "scripts": {
     "start": "node index",
     "test": "grunt validate --verbose",
-    "postinstall": "grunt init && grunt prod"
+    "postinstall": "grunt init "
   },
   "engines": {
     "node": "~0.10.0 || ~0.12.0",
